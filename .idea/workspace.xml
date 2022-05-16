@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7ffdea-7d95-4b41-93df-0eb6a5cfd225" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/run/ASMPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/run/HelloWorldGenerateCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sample/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/FileUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +37,9 @@
     </option>
   </component>
   <component name="ProjectId" id="299eL9fIrBBpuwEArCqY7w5D2CN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,7 +49,47 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.HelloWorldGenerateCore">
+    <configuration name="ASMPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run.ASMPrint" />
+      <module name="asm-studty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldGenerateCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run.HelloWorldGenerateCore" />
+      <module name="asm-studty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloWorldGenerateCore" />
+        <item itemvalue="Application.ASMPrint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -49,10 +102,38 @@
       <option name="presentableId" value="Default" />
       <updated>1652529669134</updated>
       <workItem from="1652529673256" duration="938000" />
+      <workItem from="1652591512620" duration="4228000" />
+      <workItem from="1652711553407" duration="1268000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1652614097263">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652614097263" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1652614097263">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652614097263" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1652614097263">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652614097263" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1652614097263">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652614097263" />
+    <state x="-1280" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1652591518838">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1280" y="344" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652591518838" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1652598671785">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652598671785" />
   </component>
 </project>
