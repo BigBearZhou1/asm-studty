@@ -1,6 +1,6 @@
 package run;
 
-import jdk.internal.org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.ClassWriter;
 import utils.FileUtils;
 
 import static org.objectweb.asm.Opcodes.*;
